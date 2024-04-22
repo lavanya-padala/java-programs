@@ -1,0 +1,44 @@
+package redBlackTree;
+import java.util.*;
+
+enum Color
+{
+	Red,
+	Black
+}
+class Node
+{
+	public Node left;
+	public Node right;
+	public Node parent;
+	public Color color;
+	public int data;
+}
+class RedBlackTree
+{
+	private Node root;
+	private Node TNULL;
+	RedBlackTree(){
+		TNULL.parent=null;
+		TNULL.left=null;
+		TNULL.right=null;
+		root=null;
+		TNULL.color=Color.Black;
+	}
+	public void Insert() {
+		
+	}
+	public void InsertRec() {
+		
+	}
+	public void RightRotate() {
+		
+	}
+	public void LeftRotate() {
+		
+	}
+	public static void main() {
+		RedBlackTree V=new RedBlackTree();
+		
+	}
+}
